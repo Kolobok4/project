@@ -1,0 +1,33 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px 43px;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.button--primary {
+    color: white;
+    background-color: #EF3B3B;
+}
+
+.button--primary:hover {
+    background-color: #BC2B2B;
+}
+
+.button--primary:focus {
+    outline: none;
+    background-color: #BC2B2B;
+}
+
+.button--text {
+    justify-content: right;
+    padding-right: 0;
+}

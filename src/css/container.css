@@ -1,0 +1,9 @@
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    color: #1F2024;
+}
+

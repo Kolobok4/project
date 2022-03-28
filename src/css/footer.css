@@ -1,0 +1,14 @@
+.footer__privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top: 1px solid #EDEDED;
+    color: #5F6265;
+}
+
+.footer__privacy-item {
+    color: #1F2024;
+    text-decoration: none;
+}

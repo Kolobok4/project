@@ -12,3 +12,22 @@
 @import "catalog.css";
 @import "main.css";
 @import "footer.css";
+
+@media (min-width: 768px) {
+    .search {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 20px;
+    }
+    .search__input {
+        flex-grow: 1;
+    }
+    .catalog__list {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+        row-gap: 32px;
+        justify-content: center;
+    }
+}

@@ -30,4 +30,8 @@
         row-gap: 32px;
         justify-content: center;
     }
+    img {
+        width: inherit;
+        max-width: inherit;
+    }
 }
